@@ -1,11 +1,11 @@
-UROP Tweet Classification Project
-name: Hyun A Chung
+#UROP Tweet Classification Project
+##name: Hyun A Chung
 
 last updated: 2018-04-10
 
-folder:
-	1) data: contains both labeled and raw version of tweet datasets
-	Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset
+##folder:_
+	1) data: contains both labeled and raw version of tweet datasets_
+	Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset_
 	(1) CMU Tweet NLP: 
 		link to website: http://www.cs.cmu.edu/~ark/TweetNLP/
 		link to github: https://github.com/brendano/ark-tweet-nlp
