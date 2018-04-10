@@ -1,8 +1,6 @@
 UROP Tweet Classification Project
 name: Hyun A Chung
 
-last updated: 2018-04-10
-
 folder:
 	1) data: contains both labeled and raw version of tweet datasets
 	Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset
@@ -24,6 +22,13 @@ folder:
 			iii) a_json, b_json, e_json, f_json, g_json, h_json: no label .json version of Broad Twitter Corpus datasets 
 	2) classifiers: contains classification_dynet.py and classification_scikit-learn.py
 		a) classification_dynet.py: classifies tweets according to type label and content label using dynet library
-			form: python classification_dynet.py <train_file> <test_file>
+		// include installation list 
+		// complete example of command
+			command: python classification_dynet.py <train_file> <test_file>
 		b) classification_scikit-learn.py: classifies tweets according to type label and content label using scikit-learn library
-
+			command: python classification_scikit-learn.py <train_file> <test_file>
+		
+		// explanation of labels
+		// add explanation of other python files (move those files to script)
+		// include tweet download script (no API key)
+		
