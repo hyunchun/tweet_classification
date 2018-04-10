@@ -1,4 +1,7 @@
 UROP Tweet Classification Project
+// details: This is result of UROP program I worked 
+// link to mentor's and my page (for in future) 
+// poster (image || pdf)
 name: Hyun A Chung
 
 folder:
@@ -31,4 +34,6 @@ folder:
 		// explanation of labels
 		// add explanation of other python files (move those files to script)
 		// include tweet download script (no API key)
-		
+		// license for both data and code (separate: code -> whatever I want to, data -> follow license rules on each github)
+		// add description to top of repository
+		// data analysis
