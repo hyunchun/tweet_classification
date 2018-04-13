@@ -1,5 +1,11 @@
-OP 2017-2018 Artificial Intelligence for Language / Computational Linguistics: Tweet Classification
+============================================================================
 
+UROP 2017-2018 Artificial Intelligence for Language / Computational Linguistics: Tweet Classification
+Hyun A Chung, Undergraduate Student
+Jonathan Kummerfeld, Post-doctoral Research Fellow
+	http://jkk.name/
+
+============================================================================
 Below is the result of UROP program I worked on during 2017-2018.  
 > // link to mentor's and my page (for in future) 
 > // poster (image || pdf)
