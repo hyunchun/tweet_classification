@@ -3,7 +3,6 @@
 UROP 2017-2018 Artificial Intelligence for Language / Computational Linguistics: Tweet Classification
 Hyun A Chung, Undergraduate Student
 Jonathan Kummerfeld, Post-doctoral Research Fellow
-	http://jkk.name/
 
 ============================================================================
 
@@ -74,17 +73,17 @@ a) labeled: contains labeled version of tweet datasets
  ii) Type-based label: Colloquial, News, Advertisement, Emergency, Facts / Quotes
  
 Files:
-	i) CMU_1827_labeled: labeled version of CMU_1827 dataset in form of custom json format
-	ii) CMU_547_labeled: labeled version of CMU_547 dataset in form of custom json format
-	iii) h_labeled: labeled version of h dataset in form of custom json format
+  i) CMU_1827_labeled: labeled version of CMU_1827 dataset in form of custom json format
+  ii) CMU_547_labeled: labeled version of CMU_547 dataset in form of custom json format
+  iii) h_labeled: labeled version of h dataset in form of custom json format
 	
 b) raw: contains raw version of tweet datasets
 
 Files:
-	i) CMU_547_raw_tsv: correspond to daily547.tweets.json.tsv 
-	ii) CMU_1827_raw_tsv: correspond to oct27.tweets.json.tsv
-	iii) a_json, b_json, e_json, f_json, g_json, h_json: no label .json 
-	version of Broad Twitter Corpus datasets 
+  i) CMU_547_raw_tsv: correspond to daily547.tweets.json.tsv 
+  ii) CMU_1827_raw_tsv: correspond to oct27.tweets.json.tsv
+  iii) a_json, b_json, e_json, f_json, g_json, h_json: no label .json 
+       version of Broad Twitter Corpus datasets 
 
 Classifiers:
 
