@@ -6,36 +6,46 @@ Jonathan Kummerfeld, Post-doctoral Research Fellow
 	http://jkk.name/
 
 ============================================================================
-Below is the result of UROP program I worked on during 2017-2018.  
-> // link to mentor's and my page (for in future) 
-> // poster (image || pdf)
-name: Hyun A Chung
 
-1) data: contains both labeled and raw version of tweet datasets
+Description:
+This repository contains the result of Tweet Classification project for UROP that I worked on during 2017-2018.
+	
+Abstract:
+Social media is widely used as a communication tool by billions of people. For most of the existing social media, the feeds are ordered in reverse-chronological order. To give flexibility to a user’s experience, especially for Twitter, this project seeks to create a classification model that can categorize a tweet (a short online message by a Twitter user) to customize a user’s social media feed. This project involves two parts: data collection and model construction. For the data collection, we collected existing tweet datasets and designed labeling schemes for the tweets based on their type and content. For the model construction, we developed type-based and content-based categorization models using DyNet and Scikit-learn machine learning Python libraries. As the result, the DyNet model gave 46.6% accuracy for the content labels and 66.3% accuracy for the type labels. Scikit-learn model gave 45.2% accuracy for the content labels and 65.9% accuracy for type labels. Using the built models, our overall goal is to create an application that receives user’s tweets in real-time from the Twitter feed, then performs live classification to produce customized feed only with the selected labels or a user’s customized labels.  
+
+Data: 
 	Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset
 	(1) CMU Tweet NLP: 
-	      	* "Oct27": 1827 tweets from 2010-10-27
-      		* "Daily547": 547 tweets, one per day from 2011-01-01 through 2012-06-30
-		
-		link to website: http://www.cs.cmu.edu/~ark/TweetNLP/
-		link to github: https://github.com/brendano/ark-tweet-nlp
-		
-  References:
+			* "Oct27": 1827 tweets from 2010-10-27
+			* "Daily547": 547 tweets, one per day from 2011-01-01 through 2012-06-30
+			
+			http://www.cs.cmu.edu/~ark/TweetNLP/
+			https://github.com/brendano/ark-tweet-nlp
 
-    The following papers describe this dataset.  If you use this data in a
-    research publication, we ask that you cite this (the original paper):
+			The following papers describe this dataset.  If you use this data in a
+			research publication, we ask that you cite this (the original paper):
 
-    Kevin Gimpel, Nathan Schneider, Brendan O'Connor, Dipanjan Das,
-      Daniel Mills, Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey
-      Flanigan, and Noah A. Smith.
+			Kevin Gimpel, Nathan Schneider, Brendan O'Connor, Dipanjan Das,
+				Daniel Mills, Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey
+				Flanigan, and Noah A. Smith.
 
-    Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments.
-    In Proceedings of the Annual Meeting of the Association for Computational
-      Linguistics, companion volume, Portland, OR, June 2011.
+			Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments.
+			In Proceedings of the Annual Meeting of the Association for Computational
+				Linguistics, companion volume, Portland, OR, June 2011.
 
 	(2) Broad Twitter Corpus:
-		link to paper: http://aclweb.org/anthology/C16-1111 
-		link to github: https://github.com/GateNLP/broad_twitter_corpus
+			*"H":	General collection of 2000 non-UK tweets from 2014
+			
+			http://aclweb.org/anthology/C16-1111 
+			https://github.com/GateNLP/broad_twitter_corpus
+		
+			The following papers describe this dataset.  If you use this data in a
+			research publication, we ask that you cite this (the original paper):
+			
+			Broad Twitter Corpus: A Diverse Named Entity Recognition Resource. Leon Derczynski, 
+				Kalina Bontcheva, and Ian Roberts. Proceedings of COLING, pages 1169-1179 2016.
+				
+			The paper's full open access, and can be found easily; here's one link: http://www.aclweb.org/anthology/C16-1111    
 	
 	'data' folder contains two folders: 
 		a) labeled: contains labeled version of tweet datasets
