@@ -1,15 +1,32 @@
-OP Tweet Classification Project
-// details: This is result of UROP program I worked 
-// link to mentor's and my page (for in future) 
-// poster (image || pdf)
+OP 2017-2018 Artificial Intelligence for Language / Computational Linguistics: Tweet Classification
+
+Below is the result of UROP program I worked on during 2017-2018.  
+> // link to mentor's and my page (for in future) 
+> // poster (image || pdf)
 name: Hyun A Chung
 
-folder:
-	1) data: contains both labeled and raw version of tweet datasets
+1) data: contains both labeled and raw version of tweet datasets
 	Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset
 	(1) CMU Tweet NLP: 
+	      	* "Oct27": 1827 tweets from 2010-10-27
+      		* "Daily547": 547 tweets, one per day from 2011-01-01 through 2012-06-30
+		
 		link to website: http://www.cs.cmu.edu/~ark/TweetNLP/
 		link to github: https://github.com/brendano/ark-tweet-nlp
+		
+  References:
+
+    The following papers describe this dataset.  If you use this data in a
+    research publication, we ask that you cite this (the original paper):
+
+    Kevin Gimpel, Nathan Schneider, Brendan O'Connor, Dipanjan Das,
+      Daniel Mills, Jacob Eisenstein, Michael Heilman, Dani Yogatama, Jeffrey
+      Flanigan, and Noah A. Smith.
+
+    Part-of-Speech Tagging for Twitter: Annotation, Features, and Experiments.
+    In Proceedings of the Annual Meeting of the Association for Computational
+      Linguistics, companion volume, Portland, OR, June 2011.
+
 	(2) Broad Twitter Corpus:
 		link to paper: http://aclweb.org/anthology/C16-1111 
 		link to github: https://github.com/GateNLP/broad_twitter_corpus
@@ -37,4 +54,5 @@ folder:
 		// license for both data and code (separate: code -> whatever I want to, data -> follow license rules on each github)
 		// add description to top of repository
 		// data analysis
+
 
