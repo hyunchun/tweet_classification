@@ -10,7 +10,7 @@ Jonathan Kummerfeld, Post-doctoral Research Fellow
 Description:
 
 This repository contains the result of Tweet Classification project for UROP 
-that I worked on during 2017-2018.
+that we worked on during 2017-2018.
 	
 Abstract:
 
