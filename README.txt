@@ -110,8 +110,5 @@ b) classification_scikit-learn.py
 	<train_file> and <test_file>: json files with custom json format for this project
 		
 
-	
-		// license for both data and code (separate: code -> whatever I want to, data -> follow license rules on each github)
-		// data analysis
 
 
