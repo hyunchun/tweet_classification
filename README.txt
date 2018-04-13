@@ -69,17 +69,28 @@ Datasets are imported from (1) CMU Tweet NLP and (2) Broad Corpus dataset
 	
 'data' folder contains two folders: 
 a) labeled: contains labeled version of tweet datasets
+ Labels include: 
+ i) Content-based label: Environmental, Business, Sports, Technology, Entertainment, Personal, Politics, Lifestyle
+ ii) Type-based label: Colloquial, News, Advertisement, Emergency, Facts / Quotes
+ 
+Files:
 	i) CMU_1827_labeled: labeled version of CMU_1827 dataset in form of custom json format
 	ii) CMU_547_labeled: labeled version of CMU_547 dataset in form of custom json format
 	iii) h_labeled: labeled version of h dataset in form of custom json format
+	
 b) raw: contains raw version of tweet datasets
+
+Files:
 	i) CMU_547_raw_tsv: correspond to daily547.tweets.json.tsv 
 	ii) CMU_1827_raw_tsv: correspond to oct27.tweets.json.tsv
-	iii) a_json, b_json, e_json, f_json, g_json, h_json: no label .json version of Broad Twitter Corpus datasets 
+	iii) a_json, b_json, e_json, f_json, g_json, h_json: no label .json 
+	version of Broad Twitter Corpus datasets 
 
 Classifiers:
 
-In this project, two different classifiers were implemented: classification_dynet.py and classification_scikit-learn.py
+In this project, two different classifiers were implemented: classification_dynet.py
+and classification_scikit-learn.py
+
 a) classification_dynet.py
 	Requires dynet and numpy libraries
 	dynet: http://dynet.readthedocs.io/en/latest/index.html
@@ -98,11 +109,9 @@ b) classification_scikit-learn.py
 	e.g. python classification_scikit-learn.py train_set test_set
 	<train_file> and <test_file>: json files with custom json format for this project
 		
-		// explanation of labels
-		// add explanation of other python files (move those files to script)
-		// include tweet download script (no API key)
+
+	
 		// license for both data and code (separate: code -> whatever I want to, data -> follow license rules on each github)
-		// add description to top of repository
 		// data analysis
 
 
